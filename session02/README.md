@@ -11,3 +11,10 @@ The Raspeberry looked like this: <br />
 While the protoboard looked like this: <br />
 
 ![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session02/images/set-up-02.jpg?raw=true) <br />
+
+
+## Output 
+
+The small code run in the Raspberry works like the following:
+
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session02/images/output-gif.gif) <br />

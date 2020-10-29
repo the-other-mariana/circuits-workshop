@@ -19,12 +19,13 @@ Wiring Pi Pinout:
 5. Configure it as follows: <br />
 <br />
 ![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/media/fixed-ip.png?raw=true) <br />
-6. Accept changes.
-7. Put a microSD card (OS) inside the Raspberry.
-8. Connect a universal-USB cable from the Raspberry to your computer.
-9. Connect an Ethernet cable from the Raspberry to your computer.
-10. Open `VNC Viewer For Windows` (v6.18.907).
-11. Choose the IP address of your Raspberry, in this case `192.168.0.144`
+6. Accept changes.<br />
+7. Put a microSD card (OS) inside the Raspberry.<br />
+8. Connect a universal-USB cable from the Raspberry to your computer.<br />
+9. Connect an Ethernet cable from the Raspberry to your computer.<br />
+10. Open `VNC Viewer For Windows` (v6.18.907).<br />
+11. Choose the IP address of your Raspberry, in this case `192.168.0.144`.<br />
+12. In VNC you will see the Raspberry's screen projected.
 
 ## Content
 

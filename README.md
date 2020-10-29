@@ -17,7 +17,14 @@ Wiring Pi Pinout:
 3. Double click on `TCP/IPv4` option.
 4. Instead of Automatic IP, choose Fixed IP Address.
 5. Configure it as follows: <br />
-![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session02/images/set-up-01.jpg?raw=true) <br />
+<br />
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/media/fixed-ip.png?raw=true) <br />
+6. Accept changes.
+7. Put a microSD card (OS) inside the Raspberry.
+8. Connect a universal-USB cable from the Raspberry to your computer.
+9. Connect an Ethernet cable from the Raspberry to your computer.
+10. Open `VNC Viewer For Windows` (v6.18.907).
+11. Choose the IP address of your Raspberry, in this case `192.168.0.144`
 
 ## Content
 

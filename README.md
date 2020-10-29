@@ -12,10 +12,13 @@ Wiring Pi Pinout:
 
 ### Turn On Your Raspberry
 
-1. You need to go to `Control Panel > Networks & Internet > Network Connections`.
-2. Click on `Ethernet` option.
-3. Double click on `TCP/IPv4` option.
-4. Instead of Automatic IP, choose Fixed IP Address.
+1. You need to go to `Control Panel > Networks & Internet > Network Connections`. <br />
+
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/media/red.png?raw=true) <br />
+
+2. Click on `Ethernet` option.<br />
+3. Double click on `TCP/IPv4` option.<br />
+4. Instead of Automatic IP, choose Fixed IP Address.<br />
 5. Configure it as follows: <br />
 
 ![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/media/fixed-ip.png?raw=true) <br />

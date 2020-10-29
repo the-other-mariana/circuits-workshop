@@ -17,8 +17,9 @@ Wiring Pi Pinout:
 3. Double click on `TCP/IPv4` option.
 4. Instead of Automatic IP, choose Fixed IP Address.
 5. Configure it as follows: <br />
-<br />
+
 ![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/media/fixed-ip.png?raw=true) <br />
+
 6. Accept changes.<br />
 7. Put a microSD card (OS) inside the Raspberry.<br />
 8. Connect a universal-USB cable from the Raspberry to your computer.<br />

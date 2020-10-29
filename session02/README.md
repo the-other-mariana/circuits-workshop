@@ -9,7 +9,7 @@ Language: `C` <br />
 
 ## Setup
 
-The Raspeberry looked like this: <br />
+The Raspberry looked like this: <br />
 
 ![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session02/images/set-up-01.jpg?raw=true) <br />
 
@@ -19,7 +19,7 @@ While the protoboard looked like this: <br />
 
 ## Usage
 
-In the raspberry, open the command prompt and type:
+In the Raspberry, open the command prompt and type:
 
 ### To Compile
 

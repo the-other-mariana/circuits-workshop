@@ -31,7 +31,16 @@ Wiring Pi Pinout:
 11. Choose the IP address of your Raspberry, in this case `192.168.0.144`.<br />
 12. In VNC you will see the Raspberry's screen projected.
 
-*Note: Operating System inside the microSD Memory (32GB) is Linux Raspbian* <br /> 
+*Note: Operating System inside the microSD Memory (32GB) is Linux Raspbian.* <br /> 
+
+## Turn Off Your Raspberry
+
+1. Click the Raspberry Icon. <br />
+2. Click on Shutdown. <br />
+3. Close VNC Viewer. <br />
+4. Wait a few seconds and unplug the Ethernet and the Universal cables. <br />
+5. In your computer, go back to `Control Panel > Networks & Internet > Network Connections`. <br />
+6. Choose Automatic IP Address again. <br />
 
 ## Content
 

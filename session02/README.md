@@ -1,6 +1,6 @@
 # Session 02
 
-Today, we use a touch sensor that whenever it was touched, a led turned on. <br />
+Small code that turns on a led while pressing a touch sensor. <br />
 
 ## Specifications
 

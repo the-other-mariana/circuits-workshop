@@ -27,7 +27,7 @@ freqs["LA#"] = 29.14; <br />
 freqs["SIB"] = 29.14; <br />
 freqs["O"] = 0; <br />
 
-For, example to reach the 4th octave of DO:
+For, example to reach the 4th octave of DO: <br />
 
 '''
 freqs["DO"]*(2^(4))

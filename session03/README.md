@@ -36,3 +36,36 @@ freqs["DO"]*(2^(4))
 And the softTone.h library converts that number to voltage, which is then sent to the S pin (extreme  pin) of the buzzer. <br/ >
 
 All programs in the Raspberry control SIGNAL (S pin) of the components. The other two pins left are: the ground pin (- pin) and the vcc pin (5v power pin), which are never included in the programs we make because they are 'default'-ishly connected to the Raspberry and protoboard. <br />
+
+## Specifications
+
+Raspberry: `Raspberry Pi 3` <br />
+Language: `C` <br />
+
+## Set Up
+
+The passive buzzer is the model ARD-356, such as the following: <br />
+
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session03/images/ARD-356.jpg?raw=true) <br />
+
+The Raspberry looks as the following: <br />
+
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session03/images/rasp-buzzer.jpg?raw=true) <br />
+
+The protoboard is connected as below: <br />
+
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session03/images/proto-buzzer.jpg?raw=true) <br />
+
+The buzzer is connected as follows: <br />
+
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session03/images/buzzer.jpg?raw=true) <br />
+
+## Output
+
+The output preview is the hole 8 octaves sounding with a delay of 500 mileseconds, each with the whole set of notes. Total of notes sounding would be 64 notes. The preview vid is the one below: <br />
+
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session03/images/output-gif.gif) <br />
+
+Download the video with audio here: [Output Video](https://github.com/the-other-mariana/circuits-workshop/blob/master/session03/images/output-vid.mp4) <br />
+
+

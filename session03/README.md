@@ -64,6 +64,20 @@ The buzzer is connected as follows: <br />
 
 ![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session03/images/buzzer.jpg?raw=true) <br />
 
+## Usage
+
+### To Compile
+
+```
+& gcc buzzer.c -o buzzer -lwiringPi -lpthread
+```
+
+### To Run
+
+```
+& sudo ./buzzer
+```
+
 ## Output
 
 The output preview is the hole 8 octaves sounding with a delay of 500 mileseconds, each with the whole set of notes. Total of notes sounding would be 64 notes. The preview vid is the one below: <br />

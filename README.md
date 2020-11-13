@@ -36,6 +36,20 @@ Wiring Pi Pinout:
 
 *Note: Operating System inside the microSD Memory (32GB) is Linux Raspbian.* <br /> 
 
+## Compile & Run Codes From Raspberry
+
+### To Compile
+
+```
+& gcc codename.c -o outputname -lwiringPi
+```
+
+### To Run
+
+```
+& sudo ./outputname
+```
+
 ## Turn Off Your Raspberry
 
 1. Click the Raspberry Icon. <br />

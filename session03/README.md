@@ -46,7 +46,9 @@ Language: `C` <br />
 
 The passive buzzer is the model ARD-356, such as the following: <br />
 
-![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session03/images/ARD-356.jpg?raw=true) <br />
+<img align="left" alt="icon" width="100px" padding-bottom="15px" src="https://github.com/the-other-mariana/circuits-workshop/blob/master/session03/images/ARD-356.jpg" />
+
+<br />
 
 The Raspberry looks as the following: <br />
 

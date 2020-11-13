@@ -29,9 +29,9 @@ freqs["O"] = 0; <br />
 
 For, example to reach the 4th octave of DO: <br />
 
-'''
+```
 freqs["DO"]*(2^(4))
-'''
+```
 
 And the softTone.h library converts that number to voltage, which is then sent to the S pin (extreme  pin) of the buzzer. <br/ >
 

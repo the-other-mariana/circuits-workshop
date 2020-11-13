@@ -29,6 +29,9 @@ Wiring Pi Pinout:
 9. Connect an Ethernet cable from the Raspberry to your computer.<br />
 10. Open `VNC Viewer For Windows` (v6.18.907).<br />
 11. Choose the IP address of your Raspberry, in this case `192.168.0.144`.<br />
+
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session01/images/vnc.png?raw=true) <br />
+
 12. In VNC you will see the Raspberry's screen projected.
 
 *Note: Operating System inside the microSD Memory (32GB) is Linux Raspbian.* <br /> 

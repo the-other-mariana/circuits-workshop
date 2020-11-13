@@ -47,6 +47,11 @@ Passive Buzzer Model: `ARD-356` <br />
 
 The buzzer looks like the following: <br />
 
+<div>
+<img src="https://github.com/the-other-mariana/circuits-workshop/blob/master/session03/images/ARD-356.jpg" width="200" height="200"/>
+</div>
+<br />
+
 ![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session03/images/ARD-356.jpg =200x)<br />
 
 The Raspberry looks as the following: <br />

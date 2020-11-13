@@ -55,3 +55,9 @@ Small code that makes a led blink with a constant delay. <br />
 Small code that makes a led turn on while pressing a touch sensor. <br />
 
 ![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session02/images/output-gif.gif) <br />
+
+### [Session 03](https://github.com/the-other-mariana/circuits-workshop/tree/master/session03) Passive Buzzer Plays Music Notes
+
+Small code that sends a frequency number as voltage to a buzzer to make it play different notes. <br />
+
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session03/images/output-gif.gif) <br />

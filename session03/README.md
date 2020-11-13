@@ -33,7 +33,7 @@ For, example to reach the 4th octave of DO: <br />
 freqs["DO"]*(2^(4))
 ```
 
-And the softTone.h library converts that number to voltage, which is then sent to the S pin (extreme  pin) of the buzzer. <br/ >
+And the softTone.h library converts that number to voltage, which is then sent to the S pin (extreme  pin) of the buzzer. <br />
 
 All programs in the Raspberry control SIGNAL (S pin) of the components. The other two pins left are: the ground pin (- pin) and the vcc pin (5v power pin), which are never included in the programs we make because they are 'default'-ishly connected to the Raspberry and protoboard. <br />
 

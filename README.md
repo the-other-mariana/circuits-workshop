@@ -10,6 +10,13 @@ Wiring Pi Pinout:
 
 ![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session01/images/pinout_wiringPi.png?raw=true) <br />
 
+### Resources
+
+1. Raspbian OS `.img` file.
+2. SD Card Formatter 0500 `.exe` file.
+3. VNC Viewer 6.18.907 for Windows 64bit `.exe` file.
+4. win32diskimager 1.0.0 install `.exe` file.
+
 ## Turn On Your Raspberry
 
 1. You need to go to `Control Panel > Networks & Internet > Network Connections`. <br />

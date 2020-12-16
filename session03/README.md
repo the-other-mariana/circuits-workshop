@@ -6,31 +6,33 @@ Small code that sends a frequency number to a buzzer to make a sound of the 8 oc
 
 The zero octave goes as follows: <br />
 
-freqs["DO"]= 16.35; <br />
-freqs["RE"]= 18.35; <br />
-freqs["MI"]= 20.60; <br />
-freqs["FA"]= 21.83; <br />
-freqs["SOL"]= 24.50; <br />
-freqs["LA"]= 27.50; <br />
-freqs["SI"]= 30.87; <br />
-freqs["DO#"] = 17.32; <br />
-freqs["REB"] = 17.32; <br />
-freqs["RE#"] = 19.45; <br />
-freqs["MIB"] = 19.45; <br />
-freqs["MI#"]= 21.83; <br />
-freqs["FAB"]= 20.60; <br />
-freqs["FA#"] = 23.12; <br />
-freqs["SOLB"] = 23.12; <br />
-freqs["SOL#"] = 25.96; <br />
-freqs["LAB"] = 25.96; <br />
-freqs["LA#"] = 29.14; <br />
-freqs["SIB"] = 29.14; <br />
-freqs["O"] = 0; <br />
+```c
+freqs["DO"]= 16.35;
+freqs["RE"]= 18.35; 
+freqs["MI"]= 20.60;
+freqs["FA"]= 21.83;
+freqs["SOL"]= 24.50;
+freqs["LA"]= 27.50;
+freqs["SI"]= 30.87;
+freqs["DO#"] = 17.32;
+freqs["REB"] = 17.32;
+freqs["RE#"] = 19.45;
+freqs["MIB"] = 19.45;
+freqs["MI#"]= 21.83;
+freqs["FAB"]= 20.60;
+freqs["FA#"] = 23.12;
+freqs["SOLB"] = 23.12;
+freqs["SOL#"] = 25.96;
+freqs["LAB"] = 25.96;
+freqs["LA#"] = 29.14;
+freqs["SIB"] = 29.14;
+freqs["O"] = 0;
+```
 
 For, example to reach the 4th octave of DO: <br />
 
-```
-freqs["DO"]*(2^(4))
+```c
+number = freqs["DO"]*(2^(4));
 ```
 
 And the softTone.h library converts that number to voltage, which is then sent to the S pin (extreme  pin) of the buzzer. <br />

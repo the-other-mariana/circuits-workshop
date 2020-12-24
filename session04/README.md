@@ -16,8 +16,6 @@ The DHT11 Sensor looks as follows: <br />
 </div>
 <br />
 
-## Usage
-
 The sensor DHT11 must be set up in the protoboard as shown below. <br />
 
 ![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session04/images/dht11-setup.jpg?raw=true) <br />

@@ -42,7 +42,7 @@ void read_dht11_dat()
 		if ( (i >= 4) && (i % 2 == 0) )
 		{
 			dht11_dat[j / 8] <<= 1;
-			if ( counter > 16 )
+			if ( counter > 50 )
 				dht11_dat[j / 8] |= 1;
 			j++;
 		}
@@ -61,7 +61,7 @@ void read_dht11_dat()
  
 int main( void )
 {
-	printf( "Raspberry Pi wiringPi DHT11 Temperature test program\n" );
+	printf( "DHT11 Temperature test program\n" );
  
 	if (wiringPiSetup() == -1){
 		exit(1);

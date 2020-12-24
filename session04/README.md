@@ -18,9 +18,27 @@ The DHT11 Sensor looks as follows: <br />
 
 ## Usage
 
+The sensor DHT11 must be set up in the protoboard as shown below. <br />
+
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session04/images/dht11-setup.jpg?raw=true) <br />
+
+Then, connect the cables to the Raspberry pins as follows. <br />
+
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session04/images/rasp-setup.jpg?raw=true) <br />
+
 The set up must finish when the system looks as the diagram below: <br />
 
 ![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session04/images/rasp-diagram.png?raw=true) <br />
+
+## Output
+
+Finally, after running the program, it prints the output (Relative Humidity in % and Temperature in C and F). <br />
+
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session04/images/output-cmd.png?raw=true) <br />
+
+Looking as follows. <br />
+
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session04/images/temp-gif.gif) <br />
 
 ## Links
 

@@ -88,3 +88,9 @@ Small code that makes a led turn on while pressing a touch sensor. <br />
 Small code that sends a frequency number as voltage to a buzzer to make it play different notes. <br />
 
 ![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session03/images/output-gif.gif) <br />
+
+### [Session 04](https://github.com/the-other-mariana/circuits-workshop/tree/master/session04) Temperature Printed in Console
+
+Small code that prints in the console the Relative Humidity (%) and Temperature (°C and °F). <br />
+
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session04/images/temp-gif.gif) <br />

@@ -50,7 +50,7 @@ Wiring Pi Pinout:
 
 ### To Compile
 
-Throuch the terminal, go to the folder's directory where the source code is and type: <br />
+Through the terminal, go to the folder's directory where the source code is and type: <br />
 
 ```
 & gcc codename.c -o outputname -lwiringPi

@@ -33,7 +33,7 @@ And finally, the Raspberry pins must be connected as shown below. <br />
 ### To Compile
 
 ```
-& gcc blink.c -o outputname -lwiringPi
+& gcc switch-led.c -o outputname -lwiringPi
 ```
 
 ### To Run

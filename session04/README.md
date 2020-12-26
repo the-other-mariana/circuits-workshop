@@ -33,7 +33,7 @@ The set up must finish when the system looks as the diagram below: <br />
 ### To Compile
 
 ```
-& gcc codename.c -o outputname -lwiringPi
+& gcc temperature.c -o outputname -lwiringPi
 ```
 
 ### To Run

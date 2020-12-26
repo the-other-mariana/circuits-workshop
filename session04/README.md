@@ -28,6 +28,20 @@ The set up must finish when the system looks as the diagram below: <br />
 
 ![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session04/images/rasp-diagram.png?raw=true) <br />
 
+## Usage
+
+### To Compile
+
+```
+& gcc blink.c -o outputname -lwiringPi
+```
+
+### To Run
+
+```
+& sudo ./outputname 
+```
+
 ## Output
 
 Finally, after running the program, it prints the output (Relative Humidity in % and Temperature in C and F). <br />

@@ -28,6 +28,20 @@ And finally, the Raspberry pins must be connected as shown below. <br />
 
 ![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session05/images/rasp-setup-switch.jpg?raw=true) <br />
 
+## Usage
+
+### To Compile
+
+```
+& gcc blink.c -o outputname -lwiringPi
+```
+
+### To Run
+
+```
+& sudo ./outputname
+```
+
 ## Output
 
 The switching led light worked as shown below. <br />

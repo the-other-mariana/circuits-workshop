@@ -48,9 +48,9 @@ Wiring Pi Pinout:
 
 ## Compile & Run Codes From Raspberry
 
-### To Compile
-
 Through the terminal, go to the folder's directory where the source code is and type: <br />
+
+### To Compile
 
 ```
 & gcc codename.c -o outputname -lwiringPi

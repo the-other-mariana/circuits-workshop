@@ -4,7 +4,7 @@ Small code that turns on a led while pressing a touch sensor. <br />
 
 ## Specifications
 
-Raspberry: `Raspberry Pi 3` <br />
+Raspberry: `Raspberry Pi 3 Model B` <br />
 Language: `C` <br />
 
 ## Setup

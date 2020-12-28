@@ -4,7 +4,7 @@ Small code that makes a led light blink.
 
 ## Specifications
 
-Raspberry: `Raspberry Pi 3` <br />
+Raspberry: `Raspberry Pi 3 Model B` <br />
 Language: `C` <br />
 
 ## Set UP

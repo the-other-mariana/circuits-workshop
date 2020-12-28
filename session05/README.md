@@ -4,6 +4,7 @@ Small code that creates the dynamic of a switch that turns on and off the light 
 
 ## Specifications
 
+Raspberry: `Raspberry Pi 3 Model B` <br />
 Language: `C` <br />
 Sensor: `Touch Sensor TTP223B` <br />
 

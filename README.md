@@ -2,7 +2,7 @@
 
 Experiments in c with raspberry and arduino. <br />
 
-## Raspberry Pi 3
+## Raspberry Pi 3 (Model B)
 
 Documentation: [WiringPi Core Functions](http://wiringpi.com/reference/core-functions/) <br />
 
@@ -17,7 +17,7 @@ Wiring Pi Pinout:
 3. VNC Viewer 6.18.907 for Windows 64bit `.exe` file.
 4. win32diskimager 1.0.0 install `.exe` file.
 
-## Turn On Your Raspberry
+## Turn On Your Raspberry with PC
 
 1. You need to go to `Control Panel > Networks & Internet > Network Connections`. <br />
 

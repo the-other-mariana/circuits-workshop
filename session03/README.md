@@ -41,7 +41,7 @@ All programs in the Raspberry control SIGNAL (S pin) of the components. The othe
 
 ## Specifications
 
-Raspberry: `Raspberry Pi 3` <br />
+Raspberry: `Raspberry Pi 3 Model B` <br />
 Language: `C` <br />
 Passive Buzzer Model: `ARD-356` <br />
 

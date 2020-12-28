@@ -4,6 +4,7 @@ Simple code in c that outputs to the terminal the humidity and temperature from 
 
 ## Specifications
 
+Raspberry: `Raspberry Pi 3 Model B` <br />
 Language: `C`<br />
 Sensor: `DHT11` or `ARD-360` <br />
 

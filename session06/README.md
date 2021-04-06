@@ -16,7 +16,7 @@
 
 ## Run
 
-1. Open the .ino code that does something.
+1. Open the [.ino code](https://github.com/the-other-mariana/circuits-workshop/blob/master/session06/ultrasonic-prints/ultrasonic-prints.ino) that does something.
 
 2. Click on Upload.
 
@@ -24,7 +24,7 @@
 
 ## Stop
 
-1. Open the .ino code that does nothing.
+1. Open the [.ino code](https://github.com/the-other-mariana/circuits-workshop/blob/master/session06/null-sketch/null-sketch.ino) that does nothing.
 
 2. Click on Upload.
 

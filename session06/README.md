@@ -1,4 +1,4 @@
-# Arduino Nano
+# Arduino Nano & Ultrasonic Sensor
 
 ## Set Up
 
@@ -13,6 +13,16 @@
 5. On the IDE, go to Tools > Processor > ATMega328P.
 
 6. On the IDE, go to Tools > Port > COM4. This port can change, to see which one it takes, go to Device Manager > COM and LPT Ports > USB-SERIAL CH40 (COM4).
+
+### Connection
+
+The breadboard sholud look as below. <br />
+
+![image](https://github.com/the-other-mariana/circuits-workshop/blob/master/session06/media/breadboard.jpg?raw=true) <br />
+
+The sensor should look as follows. <br />
+
+![image](https://github.com/the-other-mariana/circuits-workshop/blob/master/session06/media/sensor.jpg?raw=true) <br />
 
 ## Run
 
@@ -29,3 +39,7 @@
 2. Click on Upload.
 
 3. Unplug the arduino.
+
+## Output
+
+![image](https://github.com/the-other-mariana/circuits-workshop/blob/master/session06/media/output.gif)

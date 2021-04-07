@@ -108,3 +108,10 @@ Code that makes a led light switch on and off using a touch sensor as input. <br
 Code that prints the distance of obstacles using Arduino Nano and Ultrasonic Sensor. <br />
 
 ![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session06/media/output.gif) <br />
+
+### [Session 07](https://github.com/the-other-mariana/circuits-workshop/tree/master/session07) Arduino Nano & Ultrasonic Sensor With Touch Button
+
+Code that prints the distance of obstacles using Arduino Nano and Ultrasonic Sensor, but only whenever a touch button is turned on. <br />
+
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session07/media/output.gif) <br />
+

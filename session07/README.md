@@ -1,20 +1,14 @@
 # Arduino Nano & Ultrasonic Sensor With Touch Button
 
-## Set Up
+## Specifications
 
-1. Download the Arduino IDE .exe file from [here](https://www.arduino.cc/en/software).
+- Arduino Board: `Arduino Nano`
+- Processor: `ATMega328P`
+- Chip for USB Driver: `CH340G`
+- Sensor: `Ultrasonic Sensor HC-SR04`
+- Sensor: `Touch Sensor TTP223B`
 
-2. Connect your Arduino to your computer.
-
-3. If your Arduino says in the back CH340G, you need to download another driver for the USB port to be recognized from this [link](http://www.wch.cn/download/CH341SER_EXE.html). More details on this process were taken from [here](https://www.instructables.com/Arduino-Nano-USB-Not-Recognizing-Fix/).
-
-4. On the IDE, go to Tools > Board > Arduino Nano.
-
-5. On the IDE, go to Tools > Processor > ATMega328P.
-
-6. On the IDE, go to Tools > Port > COM4. This port can change, to see which one it takes, go to Device Manager > COM and LPT Ports > USB-SERIAL CH40 (COM4).
-
-### Connection
+## Connection
 
 The breadboard sholud look as below. <br />
 

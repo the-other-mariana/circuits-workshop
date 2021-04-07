@@ -2,7 +2,7 @@
 
 Experiments in c with raspberry and arduino. <br />
 
-## Raspberry Pi 3 (Model B)
+## A) Raspberry Pi 3 (Model B)
 
 Documentation: [WiringPi Core Functions](http://wiringpi.com/reference/core-functions/) <br />
 
@@ -71,7 +71,11 @@ Through the terminal, go to the folder's directory where the source code is and 
 5. In your computer, go back to `Control Panel > Networks & Internet > Network Connections`. <br />
 6. Choose Automatic IP Address again. <br />
 
-# Arduino Nano
+# B) Arduino Nano
+
+Pinout: <br />
+
+![image](https://github.com/the-other-mariana/circuits-workshop/blob/master/media/arduino-nano-pins.jpg?raw=true)
 
 ## Set Up
 

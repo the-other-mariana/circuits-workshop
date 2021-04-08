@@ -59,6 +59,7 @@ void loop() {
       Serial.print(" cm");
       
       Serial.println();// print space
+      Serial.println();// print space
       delay(100);// delay
     }
     

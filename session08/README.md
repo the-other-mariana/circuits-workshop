@@ -24,9 +24,9 @@ The idea behind this is to make the looping easier by having the following pin c
 
 Both GND arduino pins are used, where each of them passes ground to two sensor GND pins. The 5V power pin is used for all sensor VCC pins, two connected directly and the remaining two connected by bridging the 5V current from the Arduino to other breadboard row using a Male-Male dupont cable.
 
-The sensors both should look as follows. <br />
+The sensors should look as follows. <br />
 
-![image](https://github.com/the-other-mariana/circuits-workshop/blob/master/session08/media/sensors.jpg?raw=true) <br />
+![image](https://github.com/the-other-mariana/circuits-workshop/blob/master/session08/media/sensors-4.jpg?raw=true) <br />
 
 ## Run
 

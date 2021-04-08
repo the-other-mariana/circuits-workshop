@@ -18,11 +18,11 @@ The breadboard sholud look as below. <br />
 
 The idea behind this is to make the looping easier by having the following pin configuration:
 	
-	- **Triggers**: pins D02, D03, D04.
-	- **Echoes**: pins D05, D06, D07.
-	- **Signal for Touch Sensor**: pin D11.
+- **Triggers**: pins D02, D03, D04.
+- **Echoes**: pins D05, D06, D07.
+- **Signal for Touch Sensor**: pin D11.
 
-Both GND are used, where each of them passes ground to two sensor GND pins. The 5V power pin is used for all sensor VCC pins, two connected directly and the remaining two connected by bridging the 5V current from the Arduino to other breadboard row using a Male-Male dupont cable.
+Both GND arduino pins are used, where each of them passes ground to two sensor GND pins. The 5V power pin is used for all sensor VCC pins, two connected directly and the remaining two connected by bridging the 5V current from the Arduino to other breadboard row using a Male-Male dupont cable.
 
 The sensors both should look as follows. <br />
 
@@ -30,13 +30,13 @@ The sensors both should look as follows. <br />
 
 ## Run
 
-1. Open the [.ino code](https://github.com/the-other-mariana/circuits-workshop/blob/master/session07/ultrasonic-touch/ultrasonic-touch.ino) that does something.
+1. Open the [.ino code](https://github.com/the-other-mariana/circuits-workshop/blob/master/session08/ultrasonic-array/ultrasonic-array.ino) that does something.
 
 2. Click on Upload.
 
 3. Open the serial port (console) to see the printed output. This button is on the top right corner.
 
-In this case, the output is "System Turned Off" until you press the touch sensor. Then, the ultrasonic sensor does its job until you press again the touch sensor that acts as a On/Off button.
+In this case, the output is "System Turned Off" until you press the touch sensor. Then, the ultrasonic sensor array (size 3) does its job until you press again the touch sensor that acts as a On/Off button.
 
 ## Stop
 

@@ -156,3 +156,9 @@ Code that prints the distance of obstacles using Arduino Nano and Ultrasonic Sen
 
 ![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session07/media/output.gif) <br />
 
+### [Session 08](https://github.com/the-other-mariana/circuits-workshop/tree/master/session08) Arduino Nano & Ultrasonic Sensor Array
+
+Code that prints the distance of obstacles stored in an array coming from 3 different ultrasonic sensors using Arduino Nano board. <br />
+
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session08/media/output.gif) <br />
+

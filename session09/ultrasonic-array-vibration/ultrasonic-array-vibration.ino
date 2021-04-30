@@ -1,5 +1,5 @@
 char onTouch = 0;
-char TOLERANCE = 15; // cm
+char TOLERANCE = 10; // cm
 
 void setup() {
   // CONNECTIONS
@@ -25,20 +25,22 @@ void setup() {
   pinMode(6, INPUT);// ECHO - INPUT
   pinMode(7, INPUT);// ECHO - INPUT
   
-  pinMode(8, INPUT);// VIB - INPUT
-  pinMode(9, INPUT);// VIB - INPUT
-  pinMode(10, INPUT);// VIB - INPUT
+  pinMode(8, OUTPUT);// VIB - OUTPUT
+  pinMode(9, OUTPUT);// VIB - OUTPUT
+  pinMode(10, OUTPUT);// VIB - OUTPUT
   
   pinMode(11, INPUT); // TOUCH - INPUT
   
   Serial.begin(9600);// enable serial monitor
 }
 void loop() {
-  // touch sensor
+  
   char touched = digitalRead(11);
   long t[3];
+  char vib[3] = {0, 0, 0};
   long cm[3];
 
+  // touch sensor as on/off handler
   if(touched == 1 && onTouch == 1){
     onTouch = 0;
     touched = 0;
@@ -50,6 +52,8 @@ void loop() {
     delay(600);
   }
   if(onTouch == 1){
+    Serial.println();// print space
+    Serial.println();// print space
     
     //pulse output TRIGGERS
     int pin = 2;
@@ -62,15 +66,30 @@ void loop() {
 
       t[i - pin] = pulseIn(i + 3, HIGH); // input pulse and save it in variable
       cm[i - pin] = t[i - pin] / 29 / 2; // time convert distance
-      
+
+      if(cm[i - pin] <= TOLERANCE && vib[0] == 0 && vib[1] == 0 && vib[2] == 0){
+        vib[i - pin] = 1;
+        Serial.print("Sensor #");
+        Serial.print((i - pin));
+        Serial.print(" motor vibrating");
+        Serial.println();// print space
+        
+        digitalWrite(i + 6, HIGH);
+        delay(2000);
+        digitalWrite(i + 6, LOW);
+        delay(2000);
+        vib[i - pin] = 0;
+      } else{
+        vib[i - pin] = 0;
+      }
+
+      // printing of info
       Serial.print("Sensor #");
       Serial.print((i - pin));
       Serial.print(": ");
       Serial.print(cm[i - pin]); // print serial monitor cm
-      Serial.print(" cm");
+      Serial.print(" cm \t");
       
-      Serial.println();// print space
-      Serial.println();// print space
       delay(100);// delay
     }
     

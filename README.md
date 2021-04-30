@@ -162,3 +162,9 @@ Code that prints the distance of obstacles stored in an array coming from 3 diff
 
 ![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session08/media/output.gif) <br />
 
+### [Session 09](https://github.com/the-other-mariana/circuits-workshop/tree/master/session09) Vibration Motor Triggering With Ultrasonic Sensor Array
+
+Code that stores the distance of detected objects of an array of ultrasonic sensors, and whenever an object is too close, its corresponding vibration motor vibrates for two seconds. <br />
+
+![alt text](https://github.com/the-other-mariana/circuits-workshop/blob/master/session09/media/sample.gif) <br />
+
